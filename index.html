@@ -9,6 +9,9 @@
   <meta property="og:title" content="Shikha Verma · Data Analyst" />
   <meta property="og:description" content="Entry-level Data Analyst — Excel, SQL, Power BI, Tableau, Python." />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://shikhaverma09.github.io/data-analyst-portfolio/assets/img/shikha-verma.jpg" />
+  <meta property="og:url" content="https://shikhaverma09.github.io/data-analyst-portfolio/" />
+  <meta name="twitter:card" content="summary" />
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -95,35 +98,41 @@
           </ul>
         </div>
 
-        <!-- Decorative dashboard illustration -->
-        <div class="hero__visual" aria-hidden="true">
-          <div class="mock card-glass">
-            <div class="mock__top">
-              <span class="mock__dots"><i></i><i></i><i></i></span>
-              <span class="mock__title">sales_dashboard.xlsx</span>
+        <!-- Portrait with floating data cards -->
+        <div class="hero__visual">
+          <div class="portrait">
+            <div class="portrait__glow" aria-hidden="true"></div>
+            <div class="portrait__frame">
+              <img
+                src="assets/img/shikha-verma.jpg"
+                srcset="assets/img/shikha-verma-sm.jpg 450w, assets/img/shikha-verma.jpg 1086w"
+                sizes="(max-width: 640px) 260px, (max-width: 1024px) 340px, 30vw"
+                width="1086" height="1448"
+                alt="Portrait of Shikha Verma"
+                fetchpriority="high" decoding="async" />
             </div>
-            <div class="mock__kpis">
-              <div class="mock__kpi"><small>Revenue</small><b data-count="482" data-prefix="₹" data-suffix="K">₹0K</b><em class="up">▲ 12%</em></div>
-              <div class="mock__kpi"><small>Profit</small><b data-count="96" data-prefix="₹" data-suffix="K">₹0K</b><em class="up">▲ 8%</em></div>
-              <div class="mock__kpi"><small>Orders</small><b data-count="1240">0</b><em class="up">▲ 5%</em></div>
+          </div>
+
+          <div class="mini card-glass" aria-hidden="true">
+            <div class="mini__head">
+              <span class="mini__ico">▦</span>
+              <div><small>Sales dashboard</small><b data-count="482" data-prefix="₹" data-suffix="K">₹0K</b></div>
+              <em class="up">▲ 12%</em>
             </div>
-            <svg class="mock__chart" viewBox="0 0 320 120" preserveAspectRatio="none">
+            <svg class="mini__chart" viewBox="0 0 160 48" preserveAspectRatio="none">
               <defs>
-                <linearGradient id="mockFill" x1="0" x2="0" y1="0" y2="1">
+                <linearGradient id="miniFill" x1="0" x2="0" y1="0" y2="1">
                   <stop offset="0%" stop-color="currentColor" stop-opacity=".35"/>
                   <stop offset="100%" stop-color="currentColor" stop-opacity="0"/>
                 </linearGradient>
               </defs>
-              <path class="mock__area" d="M0,95 L30,80 L60,86 L90,62 L120,70 L150,48 L180,55 L210,36 L240,42 L270,22 L300,28 L320,14 L320,120 L0,120Z" fill="url(#mockFill)"/>
-              <path class="mock__line" d="M0,95 L30,80 L60,86 L90,62 L120,70 L150,48 L180,55 L210,36 L240,42 L270,22 L300,28 L320,14"/>
+              <path class="mini__area" d="M0,40 L16,34 L32,37 L48,26 L64,30 L80,20 L96,24 L112,14 L128,18 L144,8 L160,4 L160,48 L0,48Z" fill="url(#miniFill)"/>
+              <path class="mini__line" d="M0,40 L16,34 L32,37 L48,26 L64,30 L80,20 L96,24 L112,14 L128,18 L144,8 L160,4"/>
             </svg>
-            <div class="mock__bars">
-              <span style="--h:62%"></span><span style="--h:84%"></span><span style="--h:48%"></span><span style="--h:72%"></span><span style="--h:91%"></span><span style="--h:56%"></span><span style="--h:78%"></span>
-            </div>
           </div>
-          <div class="float-chip float-chip--1 card-glass"><span class="chip-ico">∑</span> SQL query ✓</div>
-          <div class="float-chip float-chip--2 card-glass"><span class="chip-ico">▦</span> Pivot table</div>
-          <div class="float-chip float-chip--3 card-glass"><span class="chip-ico">◔</span> Power BI</div>
+          <div class="float-chip float-chip--1 card-glass" aria-hidden="true"><span class="chip-ico">∑</span> SQL</div>
+          <div class="float-chip float-chip--2 card-glass" aria-hidden="true"><span class="chip-ico">◔</span> Power BI</div>
+          <div class="float-chip float-chip--3 card-glass" aria-hidden="true"><span class="chip-ico">▤</span> Excel</div>
         </div>
       </div>
 

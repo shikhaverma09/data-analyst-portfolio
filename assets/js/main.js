@@ -91,7 +91,7 @@
     revealObs.observe(el);
   });
   // Hero mock counters run on load
-  $$('.mock [data-count]').forEach(el => setTimeout(() => countUp(el), 500));
+  $$('.mini [data-count]').forEach(el => setTimeout(() => countUp(el), 500));
 
   /* ---------- Typing effect ---------- */
   const typed = $('#typed');
