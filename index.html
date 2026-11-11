@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shikha Verma · Data Analyst</title>
+  <meta name="description" content="Shikha Verma — entry-level Data Analyst skilled in Excel, SQL, Power BI, Tableau and Python. Dashboards, data cleaning and business insights." />
+  <meta name="theme-color" content="#2a5bd7" />
+  <meta property="og:title" content="Shikha Verma · Data Analyst" />
+  <meta property="og:description" content="Entry-level Data Analyst — Excel, SQL, Power BI, Tableau, Python." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <script>
+    // Apply saved theme before paint to avoid a flash
+    try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand" aria-label="Shikha Verma — home">
+        <span class="nav__logo" aria-hidden="true">SV</span>
+        <span class="nav__name">Shikha Verma</span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <a class="btn btn--sm btn--primary nav__cta" href="assets/Shikha_Verma_Resume.pdf" download>Resume</a>
+        <button class="icon-btn nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="nav__progress" id="progress" aria-hidden="true"></div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="blob blob--1"></div>
+        <div class="blob blob--2"></div>
+        <div class="grid-lines"></div>
+      </div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow"><span class="dot-live"></span> Open to entry-level Data Analyst roles</p>
+          <h1 class="hero__title">
+            Hi, I'm <span class="grad-text">Shikha Verma</span>.<br />
+            I turn raw data into<br />
+            <span class="typed-line"><span class="typed" id="typed">clear insights.</span><span class="caret" aria-hidden="true"></span></span>
+          </h1>
+          <p class="hero__lead">
+            Data Analyst based in Delhi, India. I clean messy datasets, build interactive dashboards in
+            <strong>Excel, Power BI &amp; Tableau</strong>, and query data with <strong>SQL</strong> to help teams make
+            data-driven decisions.
+          </p>
+          <div class="hero__ctas">
+            <a href="#projects" class="btn btn--primary">
+              View my work
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="assets/Shikha_Verma_Resume.pdf" class="btn btn--ghost" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M6 11l6 6 6-6M4 21h16"/></svg>
+              Download résumé
+            </a>
+          </div>
+          <ul class="hero__social" aria-label="Profiles">
+            <li><a href="https://www.linkedin.com/in/shikha-verma9112" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.65 21 11.2 21 14.4V21h-4v-5.8c0-1.4 0-3.2-1.95-3.2S12.8 13.5 12.8 15.1V21H9z"/></svg>
+            </a></li>
+            <li><a href="https://github.com/shikhaverma09" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.8 1.19 1.83 1.19 3.08 0 4.41-2.7 5.38-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg>
+            </a></li>
+            <li><a href="mailto:work.shikhaverma@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+            </a></li>
+          </ul>
+        </div>
+
+        <!-- Decorative dashboard illustration -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="mock card-glass">
+            <div class="mock__top">
+              <span class="mock__dots"><i></i><i></i><i></i></span>
+              <span class="mock__title">sales_dashboard.xlsx</span>
+            </div>
+            <div class="mock__kpis">
+              <div class="mock__kpi"><small>Revenue</small><b data-count="482" data-prefix="₹" data-suffix="K">₹0K</b><em class="up">▲ 12%</em></div>
+              <div class="mock__kpi"><small>Profit</small><b data-count="96" data-prefix="₹" data-suffix="K">₹0K</b><em class="up">▲ 8%</em></div>
+              <div class="mock__kpi"><small>Orders</small><b data-count="1240">0</b><em class="up">▲ 5%</em></div>
+            </div>
+            <svg class="mock__chart" viewBox="0 0 320 120" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="mockFill" x1="0" x2="0" y1="0" y2="1">
+                  <stop offset="0%" stop-color="currentColor" stop-opacity=".35"/>
+                  <stop offset="100%" stop-color="currentColor" stop-opacity="0"/>
+                </linearGradient>
+              </defs>
+              <path class="mock__area" d="M0,95 L30,80 L60,86 L90,62 L120,70 L150,48 L180,55 L210,36 L240,42 L270,22 L300,28 L320,14 L320,120 L0,120Z" fill="url(#mockFill)"/>
+              <path class="mock__line" d="M0,95 L30,80 L60,86 L90,62 L120,70 L150,48 L180,55 L210,36 L240,42 L270,22 L300,28 L320,14"/>
+            </svg>
+            <div class="mock__bars">
+              <span style="--h:62%"></span><span style="--h:84%"></span><span style="--h:48%"></span><span style="--h:72%"></span><span style="--h:91%"></span><span style="--h:56%"></span><span style="--h:78%"></span>
+            </div>
+          </div>
+          <div class="float-chip float-chip--1 card-glass"><span class="chip-ico">∑</span> SQL query ✓</div>
+          <div class="float-chip float-chip--2 card-glass"><span class="chip-ico">▦</span> Pivot table</div>
+          <div class="float-chip float-chip--3 card-glass"><span class="chip-ico">◔</span> Power BI</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="tool-strip" aria-label="Tools I use">
+          <li>Excel</li><li>SQL</li><li>Power BI</li><li>Tableau</li><li>Python</li><li>pandas</li><li>NumPy</li><li>Matplotlib</li><li>Gen AI</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="section__head reveal">
+          <p class="kicker">01 · About</p>
+          <h2>Curious about the <span class="grad-text">“why”</span> behind the numbers</h2>
+        </div>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              I'm an entry-level Data Analyst with hands-on internship experience in <strong>data cleaning, dashboard
+              development, data visualization and analytical reporting</strong>. I enjoy taking a messy spreadsheet,
+              finding the story hidden inside it, and presenting it in a way that anyone in the room can act on.
+            </p>
+            <p>
+              My toolkit centres on <strong>Excel, SQL, Power BI and Tableau</strong>, with a growing foundation in
+              <strong>Python (pandas, NumPy, Matplotlib)</strong> for exploratory data analysis. I recently completed a
+              certification in <strong>Data Analytics with Generative AI</strong>, and my background in Sociology helps me
+              think about the people and behaviour behind every dataset.
+            </p>
+            <div class="about__quick">
+              <div><span>Location</span><b>Delhi, India</b></div>
+              <div><span>Focus</span><b>Dashboards &amp; Reporting</b></div>
+              <div><span>Status</span><b class="ok">Available now</b></div>
+            </div>
+          </div>
+          <div class="stats reveal">
+            <div class="stat"><b data-count="2">0</b><span>months as a Data Analyst intern</span></div>
+            <div class="stat"><b data-count="8" data-suffix="+">0</b><span>analytics tools &amp; libraries</span></div>
+            <div class="stat"><b data-count="2">0</b><span>professional certifications</span></div>
+            <div class="stat"><b data-count="4">0</b><span>core tools: Excel, SQL, Power BI, Tableau</span></div>
+          </div>
+        </div>
+
+        <ol class="process reveal" aria-label="How I work">
+          <li><span class="process__n">1</span><h3>Ask</h3><p>Understand the business question and the KPIs that matter.</p></li>
+          <li><span class="process__n">2</span><h3>Clean</h3><p>Fix duplicates, blanks and formats so the data can be trusted.</p></li>
+          <li><span class="process__n">3</span><h3>Analyse</h3><p>Query with SQL, explore with pivots and Python EDA.</p></li>
+          <li><span class="process__n">4</span><h3>Visualise</h3><p>Build dashboards in Excel, Power BI or Tableau.</p></li>
+          <li><span class="process__n">5</span><h3>Share</h3><p>Turn findings into clear, actionable recommendations.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">02 · Skills</p>
+          <h2>My analytics toolkit</h2>
+          <p class="section__sub">Filter by area to see what I work with.</p>
+        </div>
+
+        <div class="tabs reveal" role="tablist" aria-label="Skill categories">
+          <button role="tab" class="tab is-active" aria-selected="true" data-filter="all">All</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="bi">BI &amp; Visualisation</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="data">Data &amp; SQL</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="code">Python</button>
+          <button role="tab" class="tab" aria-selected="false" data-filter="ai">Gen AI &amp; Soft skills</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <article class="skill-card reveal" data-cat="bi">
+            <div class="skill-card__icon ic-excel" aria-hidden="true">X</div>
+            <h3>Microsoft Excel</h3>
+            <p class="level level--strong">Proficient</p>
+            <ul class="tags"><li>Pivot Tables</li><li>Pivot Charts</li><li>XLOOKUP</li><li>VLOOKUP</li><li>Conditional Formatting</li><li>Dashboards</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="bi">
+            <div class="skill-card__icon ic-pbi" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect class="fill" x="4" y="12" width="4" height="8" rx="1"/><rect class="fill" x="10" y="8" width="4" height="12" rx="1"/><rect class="fill" x="16" y="4" width="4" height="16" rx="1"/></svg>
+            </div>
+            <h3>Power BI</h3>
+            <p class="level level--strong">Proficient</p>
+            <ul class="tags"><li>Interactive Dashboards</li><li>Data Visualisation</li><li>Analytical Reporting</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="bi">
+            <div class="skill-card__icon ic-tab" aria-hidden="true">✚</div>
+            <h3>Tableau</h3>
+            <p class="level level--strong">Proficient</p>
+            <ul class="tags"><li>Dashboard Development</li><li>Data Visualisation</li><li>Analytical Reporting</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="data">
+            <div class="skill-card__icon ic-sql" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v6c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 12v6c0 1.7 3.1 3 7 3s7-1.3 7-3v-6"/></svg>
+            </div>
+            <h3>SQL</h3>
+            <p class="level level--strong">Proficient</p>
+            <ul class="tags"><li>Querying</li><li>Data Retrieval</li><li>Data Analysis</li><li>Reporting</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="data">
+            <div class="skill-card__icon ic-eda" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5"/></svg>
+            </div>
+            <h3>Data Analysis</h3>
+            <p class="level level--strong">Proficient</p>
+            <ul class="tags"><li>Data Cleaning</li><li>EDA</li><li>Descriptive Statistics</li><li>Data Visualisation</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="code">
+            <div class="skill-card__icon ic-py" aria-hidden="true">Py</div>
+            <h3>Python</h3>
+            <p class="level">Foundational</p>
+            <ul class="tags"><li>pandas</li><li>NumPy</li><li>Matplotlib</li><li>EDA</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="ai">
+            <div class="skill-card__icon ic-ai" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.7L18.5 9.5 13.8 11.3 12 16l-1.8-4.7L5.5 9.5l4.7-1.8z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg>
+            </div>
+            <h3>Generative AI</h3>
+            <p class="level">Foundational</p>
+            <ul class="tags"><li>Gen AI Fundamentals</li><li>Intro to LLMs</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="ai">
+            <div class="skill-card__icon ic-soft" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.8 6 5.5"/></svg>
+            </div>
+            <h3>Soft Skills</h3>
+            <p class="level level--strong">Strong</p>
+            <ul class="tags"><li>Analytical Thinking</li><li>Problem Solving</li><li>Communication</li><li>Time Management</li><li>Leadership</li><li>Adaptability</li></ul>
+          </article>
+          <article class="skill-card reveal" data-cat="bi">
+            <div class="skill-card__icon ic-office" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+            </div>
+            <h3>MS Office</h3>
+            <p class="level level--strong">Proficient</p>
+            <ul class="tags"><li>Word</li><li>PowerPoint</li><li>Report Presentation</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">03 · Experience</p>
+          <h2>Where I've worked</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="tl-item reveal">
+            <div class="tl-item__marker" aria-hidden="true"></div>
+            <div class="tl-card">
+              <header class="tl-card__head">
+                <div>
+                  <h3>Data Analyst Intern</h3>
+                  <p class="tl-card__org">Claudreck Technologies Private Limited</p>
+                </div>
+                <div class="tl-card__meta">
+                  <span class="pill">May 2026 – Jul 2026</span>
+                  <span class="pill pill--soft">2 months · Internship</span>
+                </div>
+              </header>
+              <ul class="tl-card__list">
+                <li>Supported the analytics team with <strong>data cleaning, dashboard development, data visualisation and data analysis</strong>.</li>
+                <li>Used <strong>Microsoft Excel, Power BI and Tableau</strong> to create dashboards, visualise data and support analytical reporting.</li>
+                <li>Wrote <strong>SQL queries</strong> to retrieve and analyse data for reporting and data-driven decision-making.</li>
+                <li>Applied analytical thinking and problem-solving while working with datasets and visualisation tasks.</li>
+              </ul>
+              <ul class="tags tags--inline"><li>Excel</li><li>SQL</li><li>Power BI</li><li>Tableau</li><li>Data Cleaning</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">04 · Projects</p>
+          <h2>Featured project</h2>
+          <p class="section__sub">Try it below — this is a live, interactive recreation of my Excel sales dashboard.</p>
+        </div>
+
+        <article class="project reveal">
+          <div class="project__info">
+            <div class="project__badges">
+              <span class="pill">Microsoft Excel</span>
+              <span class="pill pill--soft">Pivot Tables</span>
+              <span class="pill pill--soft">Pivot Charts</span>
+              <span class="pill pill--soft">KPIs</span>
+            </div>
+            <h3 class="project__title">Sales Performance Dashboard</h3>
+            <p class="project__desc">
+              An interactive Excel dashboard that tracks sales, profit and regional performance so managers can spot
+              trends and under-performing areas at a glance.
+            </p>
+            <div class="project__cols">
+              <div>
+                <h4>What I did</h4>
+                <ul class="checks">
+                  <li>Cleaned and organised raw sales data for analysis and reporting.</li>
+                  <li>Built an interactive dashboard with Pivot Tables, Pivot Charts and Excel formulas.</li>
+                  <li>Tracked KPIs including sales, profit and regional performance.</li>
+                  <li>Analysed trends and communicated insights through visuals and reports.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live demo dashboard -->
+          <div class="dash viz-root" id="dash">
+            <div class="dash__head">
+              <div>
+                <p class="dash__label">Live demo</p>
+                <p class="dash__note">Illustrative sample data · FY 2025</p>
+              </div>
+              <button class="btn btn--sm btn--ghost" id="tableToggle" aria-pressed="false">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M3 15h18M9 4v16"/></svg>
+                <span>Table view</span>
+              </button>
+            </div>
+
+            <div class="dash__filters" role="group" aria-label="Dashboard filters">
+              <div class="seg" role="radiogroup" aria-label="Region" id="regionFilter">
+                <button role="radio" aria-checked="true" class="is-active" data-region="All">All</button>
+                <button role="radio" aria-checked="false" data-region="North">North</button>
+                <button role="radio" aria-checked="false" data-region="South">South</button>
+                <button role="radio" aria-checked="false" data-region="East">East</button>
+                <button role="radio" aria-checked="false" data-region="West">West</button>
+              </div>
+              <label class="select">
+                <span class="sr-only">Category</span>
+                <select id="catFilter" aria-label="Category">
+                  <option value="All">All categories</option>
+                  <option value="Technology">Technology</option>
+                  <option value="Furniture">Furniture</option>
+                  <option value="Office Supplies">Office Supplies</option>
+                </select>
+              </label>
+              <div class="seg seg--sm" role="radiogroup" aria-label="Metric" id="metricFilter">
+                <button role="radio" aria-checked="true" class="is-active" data-metric="sales">Sales</button>
+                <button role="radio" aria-checked="false" data-metric="profit">Profit</button>
+              </div>
+            </div>
+
+            <div class="dash__kpis" id="kpis">
+              <div class="kpi"><span class="kpi__label">Total sales</span><b class="kpi__val" id="kSales">–</b></div>
+              <div class="kpi"><span class="kpi__label">Total profit</span><b class="kpi__val" id="kProfit">–</b></div>
+              <div class="kpi"><span class="kpi__label">Profit margin</span><b class="kpi__val" id="kMargin">–</b></div>
+              <div class="kpi"><span class="kpi__label">Orders</span><b class="kpi__val" id="kOrders">–</b></div>
+            </div>
+
+            <div class="dash__charts" id="charts">
+              <figure class="chart chart--wide">
+                <figcaption><span id="trendTitle">Monthly sales</span><small>₹ thousands</small></figcaption>
+                <div class="chart__svg" id="trendChart"></div>
+              </figure>
+              <figure class="chart">
+                <figcaption><span id="regionTitle">Sales by region</span><small>₹ thousands</small></figcaption>
+                <div class="chart__svg" id="regionChart"></div>
+              </figure>
+              <figure class="chart">
+                <figcaption><span id="catTitle">Sales by category</span><small>₹ thousands</small></figcaption>
+                <div class="chart__svg" id="catChart"></div>
+              </figure>
+            </div>
+
+            <div class="dash__table" id="dataTable" hidden></div>
+
+            <p class="dash__insight" id="insight" aria-live="polite"></p>
+            <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+          </div>
+        </article>
+
+        <div class="more-projects reveal">
+          <div class="more-card">
+            <div class="more-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+            <div>
+              <h3>More projects on the way</h3>
+              <p>I'm building new case studies in SQL, Power BI and Python. Follow along on GitHub.</p>
+            </div>
+            <a class="btn btn--ghost btn--sm" href="https://github.com/shikhaverma09?tab=repositories" target="_blank" rel="noopener">See GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION & CERTS ============ -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">05 · Education &amp; Certifications</p>
+          <h2>Always learning</h2>
+        </div>
+
+        <div class="edu-grid">
+          <article class="edu-card reveal">
+            <span class="edu-card__tag">Certification</span>
+            <h3>Data Analytics with Gen AI</h3>
+            <p class="edu-card__org">Physics Wallah (PW)</p>
+            <p class="edu-card__date">Completed Oct 2026</p>
+            <p>Data analytics coursework, including introductory concepts of Generative AI and Large Language Models (LLMs).</p>
+          </article>
+          <article class="edu-card reveal">
+            <span class="edu-card__tag">Professional development</span>
+            <h3>McKinsey.org Forward Program</h3>
+            <p class="edu-card__org">McKinsey.org</p>
+            <p class="edu-card__date">2026</p>
+            <p>Problem-solving, communication, adaptability, collaboration, digital fluency and leadership.</p>
+          </article>
+          <article class="edu-card reveal">
+            <span class="edu-card__tag edu-card__tag--edu">Education</span>
+            <h3>M.A. in Sociology <em>(pursuing)</em></h3>
+            <p class="edu-card__org">Indira Gandhi National Open University (IGNOU)</p>
+            <p class="edu-card__date">2025 – 2027 (expected)</p>
+            <p>A lens for understanding the people and behaviour behind the data.</p>
+          </article>
+          <article class="edu-card reveal">
+            <span class="edu-card__tag edu-card__tag--edu">Education</span>
+            <h3>Bachelor of Arts</h3>
+            <p class="edu-card__org">University of Delhi · Hansraj College (NCWEB)</p>
+            <p class="edu-card__date">Graduated 2022</p>
+            
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact__card reveal">
+          <div class="contact__bg" aria-hidden="true"></div>
+          <p class="kicker kicker--light">06 · Contact</p>
+          <h2>Let's work with data together</h2>
+          <p class="contact__lead">I'm actively looking for entry-level Data Analyst opportunities. If you have a role, a project or just want to chat, my inbox is open.</p>
+          <div class="contact__actions">
+            <a class="btn btn--light" href="mailto:work.shikhaverma@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+              Email me
+            </a>
+            <button class="btn btn--outline-light" id="copyEmail" data-email="work.shikhaverma@gmail.com">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg>
+              <span>Copy email</span>
+            </button>
+            <a class="btn btn--outline-light" href="https://www.linkedin.com/in/shikha-verma9112" target="_blank" rel="noopener">
+              LinkedIn ↗
+            </a>
+          </div>
+          <p class="contact__email">work.shikhaverma@gmail.com · Delhi, India</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> Shikha Verma · Data Analyst</p>
+      <a href="#top" class="footer__top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/dashboard.js" defer></script>
+</body>
+</html>
