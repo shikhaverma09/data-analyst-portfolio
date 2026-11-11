@@ -299,6 +299,8 @@ svg .fill { fill: currentColor; stroke: none; }
 .ep__thumb--work { background: linear-gradient(135deg, #2a62d6, #0d1f4a); }
 .ep__thumb--mck { background: linear-gradient(135deg, #0f6f73, #08292b); }
 .ep__thumb--cert { background: linear-gradient(135deg, #7c4dff, #26124f); }
+.ep__thumb--stack span { text-align: center; line-height: .9; font-size: .92em; }
+.ep__tag { display: inline-block; margin-left: 8px; padding: 2px 7px; border-radius: 3px; background: var(--red); color: #fff; font-style: normal; font-size: .62rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; vertical-align: 3px; }
 .ep__thumb--next { background: repeating-linear-gradient(135deg, #1b1b1b 0 12px, #141414 12px 24px); border: 1px dashed var(--border-strong); color: var(--red); }
 .ep__bar { position: absolute; left: 0; right: 0; bottom: 0; height: 4px; background: rgba(255,255,255,.25); }
 .ep__bar::after { content: ""; position: absolute; inset: 0 auto 0 0; width: var(--p); background: var(--red); }
