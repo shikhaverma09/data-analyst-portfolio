@@ -8,9 +8,11 @@ Personal portfolio of an entry-level Data Analyst skilled in **Excel, SQL, Power
 
 ## Highlights
 
+- **Cinematic "series" theme:** a streaming-style billboard hero, a "Who's watching?" path picker (Recruiter / Hiring manager / Curious), a skills row, a career journey told as episodes, and a one-page résumé ("The Full Story").
+
 - **Interactive Sales Performance Dashboard:** a live, in-browser recreation of my Excel sales dashboard. Filter by region, category and metric, hover for exact values, click bars to cross-filter, and switch to a table view.
 - Internship experience, skills, education and certifications.
-- Light and dark themes, fully responsive, keyboard accessible.
+- Fully responsive (tested from 320px phones to 2560px monitors), keyboard accessible, ~60fps scrolling.
 
 ## Tech
 
@@ -20,9 +22,10 @@ Plain HTML, CSS and JavaScript. No frameworks or build step, so the site loads f
 index.html
 assets/
   css/style.css
-  js/main.js          # theme, navigation, animations, skill filters
+  js/main.js          # navigation, scroll reveals, skill row, copy email
   js/dashboard.js     # interactive sales dashboard
   img/favicon.svg
+  img/shikha-verma*.jpg   # portrait (full + small for phones)
   Shikha_Verma_Resume.pdf
 .github/workflows/deploy.yml   # auto-deploys to GitHub Pages on every push to main
 ```
